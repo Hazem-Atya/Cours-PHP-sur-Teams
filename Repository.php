@@ -1,8 +1,8 @@
 <?php
-
 require_once "ConnexionBD.php";
 abstract class Repository
 {
+
     protected $tableName;
     abstract function setTableName();
 

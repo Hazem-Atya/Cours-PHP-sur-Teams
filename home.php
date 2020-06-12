@@ -1,5 +1,7 @@
 <?php
 require "Personne.php";
+//je teste git
+
 session_start();
 $personne = new Personne();
 $personnes = $personne->findAll();
